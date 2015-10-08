@@ -1,399 +1,168 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
 <head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Gelios Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href='http://fonts.useso.com/css?family=Playball' rel='stylesheet' type='text/css'>
-<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
-		<!----//End-top-nav-script---->
-<script src="js/jquery.easydropdown.js"></script>
-<!----- start-Share-instantly-slider---->
-					 <!-- Prettify -->
-						<link href="css/owl.carousel.css" rel="stylesheet">
-					    <script src="js/owl.carousel.js"></script>
-					    <script>
-						    $(document).ready(function() {
-						      $("#owl-demo , #owl-demo1").owlCarousel({
-						        items : 1,
-						        lazyLoad : true,
-						        autoPlay : true,
-						      });
-						    });
-					    </script>
-					    <script>
-						    $(document).ready(function() {
-						      $("#owl-demo3").owlCarousel({
-						        items : 4,
-						        lazyLoad : true,
-						        autoPlay : true,
-						        navigation: false,
-						        pagination: false,
-						      });
-						    });
-					    </script>
-					<!----- //End-Share-instantly-slider---->
-<script type="text/javascript" src="js/hover_pack.js"></script>
+<title>joker's website</title>
+<meta name="viewport" content="width=device-width initial-scale=1.0" />
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style/css/normalize.css" />
+<link rel="stylesheet" href="style/css/index.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/index.js"></script>
 </head>
 <body>
- <!----start-header---->
-		<div class="header">
-			<div class="container">
-			  <div class="dropdown_box">
-				   <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
-            			<option value="0">English</option>	
-						<option value="1">French</option>
-						<option value="2">German</option>
-				   </select>
-		       </div>
-		       <div class="clearfix"></div>
-		      <div class="header_top">
-				<div class="logo">
-				  <a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-		  		<div class="menu">
-					<a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
-					<ul class="nav" id="nav">
-					  <li class="current"><a href="index.html">Home</a></li>
-					  <li><a href="about.html">About</a></li>
-					  <li><a href="services.html">Services</a></li>
-					  <li><a href="blog.html">Blog</a></li>
-					  <li><a href="portfolio.html">Portfolio</a></li>
-					  <li><a href="404.html">Shortcodes</a></li>
-					  <li><a href="contact.html">Contacts</a></li>								
-					</ul>
-					<script type="text/javascript" src="js/responsive-nav.js"></script>
-				</div>							
-	  			<div class="clearfix"> </div>
-			    <!----//End-top-nav---->
-			 </div>
+	<!-- header -->
+	<header class="header">
+		<div class="container">
+			<button id="nav-btn">
+				按钮
+			</button>
+			<ul class="nav clearfix">
+				<li id="home"><a href="">主页</a></li>
+				<li><a href="">效果</a></li>
+				<li><a href="">学习</a></li>
+				<li id="fr"><a href="">网站源码(Github)</a></li>
+				<li><a href="">博客</a></li>
+				<li><a href="">相册</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- content -->
+	<div class="slider">
+		<div class="container">
+			<div class="title">
+				<h1><p>WEB CODER</p></h1>
+			</div>
+			<div class="faith">
+				<h3><p>我很笨，但是我很勤奋！</p></h3>
+			</div>
+			<div class="desc">
+				<h3><p>Welcome to my  website!My name is JingJianQian,My English name is Joker,so you can call me JokerJing or What you want.It just a name.</p></h3>
 			</div>
 		</div>
-		<!----//End-header---->
-        <div class="copyrights">Collect from <a href="http://www.17sucai.com/" >企业网站模板</a></div>
-		<div class="banner">
-		  <div class="banner_container">
-       	      <div class="wmuSlider example1">
-			     <div class="wmuSliderWrapper">
-				  <article style="position: absolute; width: 100%; opacity: 0;"> 
-				        <div class="banner_right">
-				   	    	<h1>Welcome to <span class="color1">G</span>elios<span class="color1">.</span></h1>
-				   	    	<h2>Awesome , Clean & Unique Template</h2>
-				   	    	<a href="#" title="Online Reservation" class="btn btn-primary btn-normal btn-inline " target="_self">Read More about gelios</a>
-				   	    </div>
-					    <div class="clearfix"></div>
-					</article>
-				    <article style="position: relative; width: 100%; opacity: 1;"> 
-				   	  <div class="banner_right">
-				   	    	<h1>Welcome to <span class="color1">G</span>elios<span class="color1">.</span></h1>
-				   	    	<h2>There are many variations</h2>
-				   	    	<a href="#" title="Online Reservation" class="btn btn-primary btn-normal btn-inline " target="_self">Read More about gelios</a>
-				   	    </div>
-					    <div class="clearfix"></div>
-				   </article>
-				 </div>
-				 <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a>
-	             <script src="js/jquery.wmuSlider.js"></script> 
-				  <script>
-	       			$('.example1').wmuSlider();         
-	   		     </script> 	           	      
-      </div>
-     </div>
-    </div>
-    <div class="banner_text">
-    	<div class="container">
-    		<ul class="banner_box">
-    		   <li class="box_desc">There are many variations of passages of Lorem ipsum available but the majority.</li>
-    		   <li class="box_but"><a href="#" title="Download" class="btn1 btn1-primary1" target="_self">Download Now theme</a></li>
-    		   <div class="clearfix"> </div>
-    		</ul>
-    	</div>
-    </div>
-    <div class="grid_1 text-center">
-    	<div class="container">
-    	  <div class="col-md-4 box_1">
-    	  	<i class="icon1"> </i>
-    	  	<h3>Web Design</h3>
-    	  	<p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-    	  </div>
-    	  <div class="col-md-4 box_1">
-    	  	<i class="icon2"> </i>
-    	  	<h3>Web Development</h3>
-    	  	<p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-    	  </div>
-    	  <div class="col-md-4 box_1">
-    	  	<i class="icon3"> </i>
-    	  	<h3>Simple and Clean</h3>
-    	  	<p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-    	  </div>
-    	</div>
-    </div>
-    <div class="grid_2">
-    	<h3>Recent Projects</h3>
-    	         <div id="owl-demo3" class="owl-carousel owl-carousel2">
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p1.jpg" alt="Lazy Owl Image"><div class="b-wrapper">
-</div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p2.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p3.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p4.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p1.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p2.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p3.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="item">
-				                	<a href="#" class="b-link-stroke b-animate-go  thickbox">
-		                            <img class="lazyOwl" data-src="images/p4.jpg" alt="Lazy Owl Image"><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
-   	 							 </div>
-				                 <div class="clearfix"> </div>
-				 </div>
-     </div>
-     <div class="grid_1">
-     	<h2>From the Blog</h2>
-     	<div class="container">
-     	  <div class='col-md-4'>
-     	    <div class="box_3">
-     		  <img src="images/b1.jpg" class="img-responsive" alt=""/>
-     		  <div class="box_4">
-     		    <a href="#"><h3>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus</a></h3>
-     		    <p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-     		    <a href="#"><span class="more">More Reading  &nbsp;<img src="images/arrow.png" alt=""/></span></a>
-     		  </div>
-     		  <div class="links">
-		  		    <ul>
-		  				<li><i class="user"> </i><span><a href="#">admin</a></span><div class="clearfix"> </div></li>
-		  				<li><i class="calender"> </i><span>Feb 28, 2015</span><div class="clearfix"> </div></li>
-		  				<li><i class="comment"> </i><span>20 comments</span><div class="clearfix"> </div></li>
-		  		    </ul>
-		  	  </div>
-     	    </div>
-        </div>
-         <div class='col-md-4'>
-     	    <div class="box_3">
-     		  <img src="images/b2.jpg" class="img-responsive" alt=""/>
-     		  <div class="box_4">
-     		    <a href="#"><h3>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus</a></h3>
-     		    <p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-     		    <a href="#"><span class="more">More Reading  &nbsp;<img src="images/arrow.png" alt=""/></span></a>
-     		  </div>
-     		  <div class="links">
-		  		    <ul>
-		  				<li><i class="user"> </i><span><a href="#">admin</a></span><div class="clearfix"> </div></li>
-		  				<li><i class="calender"> </i><span>Feb 28, 2015</span><div class="clearfix"> </div></li>
-		  				<li><i class="comment"> </i><span>20 comments</span><div class="clearfix"> </div></li>
-		  		    </ul>
-		  	  </div>
-     	    </div>
-        </div>
-        <div class='col-md-4'>
-     	    <div class="box_3">
-     		  <img src="images/b3.jpg" class="img-responsive" alt=""/>
-     		  <div class="box_4">
-     		    <a href="#"><h3>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus</a></h3>
-     		    <p>Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-     		    <a href="#"><span class="more">More Reading  &nbsp;<img src="images/arrow.png" alt=""/></span></a>
-     		  </div>
-     		  <div class="links">
-		  		    <ul>
-		  				<li><i class="user"> </i><span><a href="#">admin</a></span><div class="clearfix"> </div></li>
-		  				<li><i class="calender"> </i><span>Feb 28, 2015</span><div class="clearfix"> </div></li>
-		  				<li><i class="comment"> </i><span>20 comments</span><div class="clearfix"> </div></li>
-		  		    </ul>
-		  	  </div>
-     	    </div>
-          </div>
-        <div class="clearfix"> </div>
-      </div>
-    </div> 
-    <div class="twitter">
-   	 <div class="container">
-   	 	<h3>Latest Tweets</h3>
-   	 	<h4>Check out our Twitter</h4>
-   	 	<i class="twt"> </i>
-   	 	<p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert lollipop marzipan donut apple pie. Cookie cotton candy oat cake sweet roll topping apple pie marzipan.Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert</p>
-   	    <span> </span>
-   	    <a href="#">Cream Cheesecake </a>
-   	 </div>
-    </div>
-    <div class="new">
-      <div class="container">
-   		<h3>What New</h3>
-   	   <div class="col-md-4 col_3">
-   		<ul class="date_grid">
-   		  <li class="date_left">
-   		  	<div class="date">
-				<span>
-				 15
-				</span>
-				 06
+	</div>
+	<div class="content">
+		<div class="container clearfix">
+			<div class="title">
+				<h1><p>基本的图片加文字</p><h1>
 			</div>
-		  </li>
-		  <li class="date_right">
-   		  	<p>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-		  </li>
-   		  <div class="clearfix"> </div>
-	   </ul>
-	   <p class="m_1">Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert lollipop marzipan donut apple pie.</p>
-	   <a href="#"><span class="more">More Information</span></a>
-	  </div>
-	  <div class="col-md-4 col_3">
-   		<ul class="date_grid">
-   		  <li class="date_left">
-   		  	<div class="date">
-				<span>
-				 15
-				</span>
-				 06
+			<div class="effct">
+				<div class="box">
+					<div class="box-in">
+						<a href=""><img src="img/b1.jpg"/></a>
+						<div>
+							<h3>css3过渡效果</h3>
+							<p content="text">这里是关于文本的显示控制。首行利用text-indent设置首行空格大小。css控制最多显示行数，并且超出会有省略号提示还有多余文字。起到了很好的统一效果</p>
+							<p><a href="">查看</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
-		  </li>
-		  <li class="date_right">
-   		  	<p>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-		  </li>
-   		  <div class="clearfix"> </div>
-	   </ul>
-	   <p class="m_1">Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert lollipop marzipan donut apple pie.</p>
-	   <a href="#"><span class="more">More Information</span></a>
-	  </div>
-	  <div class="col-md-4 col_3">
-   		<ul class="date_grid">
-   		  <li class="date_left">
-   		  	<div class="date">
-				<span>
-				 15
-				</span>
-				 06
+			<div class="effct">
+				<div class="box">
+					<div class="box-in">
+						<a href=""><img src="img/b2.jpg"/></a>
+						<div>
+							<h3>颜色逐渐变化</h3>
+							<p content="text">这里是关于文本的显示控制。首行利用text-indent设置首行空格大小。css控制最多显示行数，并且超出会有省略号提示还有多余文字。起到了很好的统一效果</p>
+							<p><a href="">查看</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
-		  </li>
-		  <li class="date_right">
-   		  	<p>Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus Morbi in dui quis est pulvinar</p>
-		  </li>
-   		  <div class="clearfix"> </div>
-	   </ul>
-	   <p class="m_1">Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert lollipop marzipan donut apple pie.</p>
-	   <a href="#"><span class="more">More Information</span></a>
-	  </div>
-	 </div>
-   </div>
-   <div class="footer">
-   	<div class="container">
-   		<div class="col-md-3 footer_grid">
-   			<img src="images/f_logo.png" alt=""/>
-   			<p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing..</p>
-   	        <ul class="footer_links">
-   	        	<li><a href="#">Read More</a></li>
-   	        	<li><a href="#">About Us</a></li>
-   	        </ul>
-   	        <ul class="footer_social">
-				<li><a href=""> <i class="fb"> </i> </a></li>
-				<li><a href=""><i class="tw"> </i> </a></li>
-				<li><a href=""><i class="db"> </i> </a></li>
-				<li><a href=""><i class="google"> </i> </a></li>
-	    	</ul>
-	    	<div class="copy">
-				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.17sucai.com/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			<div class="effct">
+				<div class="box">
+					<div class="box-in">
+						<a href=""><img src="img/b3.jpg"/></a>
+						<div>
+							<h3>平滑比较舒适</h3>
+							<p content="text">这里是关于文本的显示控制。首行利用text-indent设置首行空格大小。css控制最多显示行数，并且超出会有省略号提示还有多余文字。起到了很好的统一效果</p>
+							<p><a href="">查看</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
-   	    </div>
-   	    <div class="col-md-3 footer_grid1">
-   		  <h3>From the Blog</h3>
-   		  <ul class="list1 list2">
-   		  	<li class="list1_img"><img src="images/f1.jpg" class="img-responsive" alt=""/></li>
-   		  	<li class="list1_desc">
-   		  		<p class="m_3">Morbi in dui quis est.</p>
-   		  		<p class="m_2">December 25, 2015</p>
-   		  	</li>
-   		  	<div class="clearfix"> </div>
-   		  </ul>
-   		  <ul class="list1 list2">
-   		  	<li class="list1_img"><img src="images/f2.jpg" class="img-responsive" alt=""/></li>
-   		  	<li class="list1_desc">
-   		  		<p class="m_3">Curabitur sit amet mauris.</p>
-   		  		<p class="m_2">December 25, 2015</p>
-   		  	</li>
-   		  	<div class="clearfix"> </div>
-   		  </ul>
-   		  <ul class="list1">
-   		  	<li class="list1_img"><img src="images/f3.jpg" class="img-responsive" alt=""/></li>
-   		  	<li class="list1_desc">
-   		  		<p class="m_3">Curabitur sit amet mauris.</p>
-   		  		<p class="m_2">December 25, 2015</p>
-   		  	</li>
-   		  	<div class="clearfix"> </div>
-   		  </ul>
-   	    </div>
-   	    <div class="col-md-3 footer_grid1">
-   		  <h3>Tags</h3>
-   		  <ul class="tags_links">
-			<li><a href="#">Web Design</a></li>
-			<li><a href="#">Artist Design</a></li>
-			<li><a href="#">Modern</a></li>
-			<li><a href="#">Responsive</a></li>
-			<li><a href="#">Awesome</a></li>
-			<li><a href="#">Business</a></li>
-			<li><a href="#">Photography</a></li>
-			<li><a href="#">Artist Design</a></li>
-			<li><a href="#">Modern</a></li>
-			<li><a href="test.html">Responsive</a></li>
-		  </ul>
-   		</div>
-   	    <div class="col-md-3 footer_grid1">
-   		  <h3>Flicker Widget</h3>
-   		  <ul class="widget_links">
-			<li><img src="images/f4.jpg" class="img-responsive" alt=""/></li>
-			<li><img src="images/f5.jpg" class="img-responsive" alt=""/></li>
-			<li><img src="images/f6.jpg" class="img-responsive" alt=""/></li>
-		  </ul>
-		  <ul class="widget_links">
-			<li><img src="images/f7.jpg" class="img-responsive" alt=""/></li>
-			<li><img src="images/f8.jpg" class="img-responsive" alt=""/></li>
-			<li><img src="images/f9.jpg" class="img-responsive" alt=""/></li>
-		  </ul>
-   		</div>
-   	</div>
-   </div>
+		</div>
+
+		<!-- study -->
+		<div class="bk-white">
+			<div class="container-all">
+				<div class="title">
+					<h1><p>图片轮播</p></h1>
+				</div>
+				<div class="study">
+					<div class="study-container">
+							<ul class="slider-ul clearfix">
+								<li>
+									<img src="img/slider/C21.JPG" style="width:100%;"/>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/A12.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/A24.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/B16.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/C12.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/D19.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/C23.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/C21.JPG"/></a>
+								</li>
+								<li>
+									<a href=""><img src="img/slider/A12.JPG"/></a>
+								</li> 
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 博客 -->
+		<div class="container">
+			<div class="title">
+				<h1><p>FROM TABLES</p></h1>
+			</div>
+			<div class="blog">
+
+			</div>
+		</div>
+		<!-- 相册 -->
+		<div class="bk-white">
+				<div class="container">
+					<div class="title">
+						<h1><p>FROM TABLES</p></h1>
+					</div>
+					<div class="photo">
+
+					</div>
+				</div>
+			</div>
+		<div class="bk-white">
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+		</div>
+	</footer>
+	<script>
+		$(document).ready(function(){
+			alert(1&&2);
+			// $.get("https://jokercode.github.io/json/json.json",function(data,states){
+			// 	alert(data.a);
+			// 	alert(data.b);
+			// });
+		});
+
+		function slider(ul,liWidth){
+			// ul.aimation();
+		}
+	</script>
 </body>
-</html>		
+</html>
